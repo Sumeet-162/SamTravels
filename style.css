@@ -384,6 +384,9 @@ header{
   .copyright{
     flex-direction: column;
   }
+  .deals-container .box{
+    margin-right: 45px;
+  }
 }
 @media(max-width: 350px){
   header{
