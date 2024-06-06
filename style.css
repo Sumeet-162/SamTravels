@@ -585,4 +585,8 @@ header{
   .contact-form .btn-2{
     width: 100%;
   }
+  .contact-form input{
+    height: 30px;
+    font-size: 22px;
+  }
 }
