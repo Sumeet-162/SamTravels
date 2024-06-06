@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Now</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">SUMA TRAVELS</a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">Services</a></li>
+      <li><a href="index.html">About Us</a></li>
+      <li><a href="index.html">Reviews</a></li>
+    </ul>
+    <div class="header-btn" >
+      <a href="contact.html" class="contact">  Book Now  </a>
+    </div>
+  </header>
+  <section class="form">
+    <h1>Get in Touch for Your Dream Ride!</h1>
+    <p class="don">
+      Have questions or need assistance? Our team is here to help you find the perfect car for your adventure.
+    </p>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="c62fc659-0868-4b0c-a0da-f0fb8ca4c385">
+
+      <div class="car-select">
+        <div class="car-select-item">
+          <label for="location-from">From:</label>
+          <input type="text" id="location-from" name="location-from" class="car-select-input" placeholder="Pick-up Location" required />
+        </div>
+        <div class="car-select-item">
+          <label for="location-to">To:</label>
+          <input type="text" id="location-to" name="location-to" class="car-select-input" placeholder="Drop Location" required />
+        </div>
+        <div class="car-select-option">
+          <label for="car-type">Car to Book:</label>
+          <select name="car-type" id="car-type" class="car-select-input">
+            <option value="Maruti Swift Dzire">Maruti Swift Dzire</option>
+            <option value="Maruti Ertiga">Maruti Ertiga</option>
+            <option value="Toyota Innova Crysta">Toyota Innova Crysta</option>
+            <option value="Maruti Suzuki Dzire">Maruti Suzuki Dzire</option>
+            <option value="Force Tempo Traveller">Force Tempo Traveller</option>
+            <option value="Isuzu Turquoise Bus">Isuzu Turquoise Bus</option>
+          </select>
+        </div>
+        <div class="car-select-item">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" class="car-select-input" required />
+        </div>
+      </div>
+      <div class="contact-form">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="text" name="email" placeholder="Email" required />
+        <input type="text" name="phone" placeholder="Phone" required />
+        <button type="submit" class="btn-2">Submit</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="social">
+    <div class="heading">
+      <span>Contact Us</span>
+    </div>
+    <div class="contact">
+      <a href="tel:997-238-1595"><i class='bx bxs-phone-call'></i>
+        Phone: 9972381595</a>
+      <a href="https://api.whatsapp.com/send?phone=9620076229"><i class='bx bxl-whatsapp' ></i>
+        Send Message</a>
+      <a href="mailto:manjunath9972381595@gmail.com"><i class='bx bxl-gmail'></i>
+        Send Email</a>
+    </div>
+    <div class="copyright">
+      <p>&#169; 2024 All Rights Reserved by Suma Travels</p>
+    </div>
+  </section>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
