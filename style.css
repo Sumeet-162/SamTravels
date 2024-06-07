@@ -490,14 +490,14 @@ header{
 
 .car-select{
   background-color: var(--second-color);
-  width: 90vw;
+  width: 95vw;
   height: 153px;
   border-radius: 32px;
   margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 42px;
+  gap: 22px;
 }
 
 .car-select-item{
