@@ -585,8 +585,8 @@ header{
   }
   .contact-form .btn-2{
     width: 100%;
-    background-color: var(--second-color);
-    color: var(--text-color);
+    background-color: #61677ADA;
+    color: #fff;
   }
   .contact-form input{
     height: 30px;
